@@ -1,0 +1,73 @@
+<style>
+
+/*Define styling for the main content*/
+main {
+font-family: 'sans-serif';
+background-color: rgb(114, 185, 230);
+height: 100%;
+overflow: auto;
+} 
+
+/*Define styling for the h1 tag */
+h1 {
+    font-family: Arial, Heveltica, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Define styling for the division*/
+.div {
+    background-color:white;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+}
+
+/*Define styling for the paragraph*/
+p {
+    font-style: italic;
+    font-size: 16px;
+    color: lightgray; 
+    text-align: center;  
+}
+/*Define styling for fieldset*/
+fieldset {
+    border: none;
+    padding: none;
+}
+
+/*Define styling for label */
+label {
+    color: lightgrey;
+}
+
+/*Define styling for hidden text */
+.hidden {
+    display: none;
+}
+
+/*Define styling for input*/
+input [type="text"], input [type="password"] {
+    display: block;
+    background-color: white;
+    width: 100%;  
+    position:absolute;
+}
+
+/*Define styling for button*/
+button {
+    background-color: darkblue;
+    border-style: none;
+    width: 150px;
+    padding: 10px;
+    color: white;
+}
+
+/*Define styling for button container*/
+.button_container {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+}
+</style>
