@@ -1,0 +1,96 @@
+/*Define styling for html, body and section*/
+html, body, section {
+    height: 100%;
+}
+
+/*Define styling for body*/
+body {
+    text-align: center;
+}
+
+/*Define styling for the division*/
+div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Define styling for header 2*/
+h2 {
+    text-align: center;
+}
+
+/*Define styling for the form*/
+form {
+    background-color: white;
+    border-radius: 10px;
+    width: 220px;
+    height: 220px;
+    padding: 40px;    
+    text-align: left;
+    align-self: center;
+}
+
+/*Define styling for the container*/
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/*Define styling for red division*/
+.red {
+    background-color: red;
+    flex: 1;
+
+}
+
+/*Define styling for black division*/
+.black {
+    background-color: black;
+    flex: 2;
+    position: relative;
+}
+
+/*Define styling for button*/
+button {
+    padding: 5px;
+    border-radius: 5px;
+    width: 165px;
+    height: 24px;
+}
+
+/*Define styling for outer-circle*/
+.outer-circle {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0px 0px -150px;
+    position: absolute;
+}
+
+/*Define styling for middle-circle*/
+.middle-circle {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%; 
+    top: 66%;
+    left: 66%;
+    margin: -150px 0px 0px -150px;
+    position: absolute;
+}
+
+/*Define styling for inner-circle*/
+.inner-circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    top: 100%;
+    left: 100%;
+    margin: -150px 0px 0px -150px;
+    position: absolute;
+}
