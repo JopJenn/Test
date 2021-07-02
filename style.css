@@ -1,0 +1,48 @@
+/*Define styling for the body*/
+body {
+    background-color: teal;
+}
+
+/*Define styling for the h2 tag*/
+h2 {
+    text-align: center;
+}
+
+/*Define styling for the form*/
+form {
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 40px;    
+    text-align: left;
+    justify-content: center;
+}
+
+/*Define styling for the emamil and password input*/
+
+input {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    border-left: 0;
+    width: 100%;   
+}
+
+/*Define styling for the button input*/
+
+button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 12px 28px;
+}
+
+a {
+    color:#ccc;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
