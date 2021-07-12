@@ -31,13 +31,15 @@ for ( i = 0; i < lifeEvents.length; i++) {
     }
 //Write while loop that loops while true and Write if statement with condition not equal to 5 and else statment condition is equal to 5 with a break
 let counter = 0;
-while (randomNumber = Math.floor(Math.random() * 10) + 1); {
+let randomNumber;
+while (randomNumber = Math.floor(Math.random() * 10) + 1) {
 if (randomNumber !== 5) {
-        counter ++;
+        counter++;
         console.log(`${randomNumber} !==5`);
     }
     else {
-        counter ++;
-        console.log("5 === 5. It took " + counter + " iterations to randomly generate the number 5.")
+        counter++;
+        console.log("5 === 5. It took " + counter + " iterations to randomly generate the number 5.");
+        break;
     }   
 }
